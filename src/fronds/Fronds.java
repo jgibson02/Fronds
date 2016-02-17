@@ -61,7 +61,7 @@ public class Fronds {
         ImageIcon icon2 = new ImageIcon(im);
         JLabel label = new JLabel(icon2);
         frame.add(label);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(2);
         frame.pack();
         int x = rand.nextInt(d.width - frame.getWidth());
         int y = rand.nextInt(d.height - frame.getHeight());
@@ -84,7 +84,7 @@ public class Fronds {
                     ImageIcon icon2 = new ImageIcon(im);
                     JLabel label = new JLabel(icon2);
                     frame.add(label);
-                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                    frame.setDefaultCloseOperation(2);
                     frame.pack();
                     int x = rand.nextInt(d.width - frame.getWidth());
                     int y = rand.nextInt(d.height - frame.getHeight());
